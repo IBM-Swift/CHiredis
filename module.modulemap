@@ -1,7 +1,5 @@
 module hiredis [system] {
-    header "/usr/local/include/hiredis/hiredis.h"
-    header "/usr/local/include/hiredis/read.h"
-    header "/usr/local/include/hiredis/sds.h"
+    header "hiredis.h"
     link "hiredis"
     export *
 }
