@@ -1,4 +1,4 @@
-# PhoenixHiredis
+# Kitura-hiredis
 A Swift module that exposes the Hiredis Redis C client APIs
 
 ## Pre-requisites:
