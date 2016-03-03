@@ -14,8 +14,8 @@
  * limitations under the License.
  **/
 
-module hiredis [system] {
-    header "hiredis.h"
+module CHiredis [system] {
+    header "shim.h"
     link "hiredis"
     export *
 }
