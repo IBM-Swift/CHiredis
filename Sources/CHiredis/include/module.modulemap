@@ -15,7 +15,9 @@
  **/
 
 module CHiredis [system] {
-    header "shim.h"
-    link "hiredis"
+    header "../hiredis.h"
+    header "../read.h"
+    header "../sds.h"
+    link "CHiredis"
     export *
 }
